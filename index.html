@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>席替えプログラム</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>スタジオ２座席表</h1>
+    <p>2024年9月-10月</p>
+    <input type="file" id="fileUpload" accept=".js">
+    <div id="seatingChart"></div>
+    <button id="generateButton" disabled>席替え実行</button>
+    <div id="loading">
+        <div class="spinner"></div>
+        <p>席替え中...</p>
+    </div>
+
+    <script type="module" src="js/changeSeats.js"></script>
+</body>
+
+</html>
